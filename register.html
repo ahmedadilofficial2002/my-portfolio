@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<div class="black-section">
+<nav>
+        <ul>
+            <a href="index.html"><li>Home</li>
+</a>
+            <a href="register.html"><li>Register</li></a>
+            <a href="login.html"><li>Login</li></a>
+            <a href="index.html"><li>My Portfolio</li></a>
+            <a  id=contact href="contact.html"><li>Contact me</li></a>
+            
+        </ul>
+
+        </nav>
+    </div>
+<section class="login-section">
+    <div class="login-box">
+        <h2>Create Account</h2>
+        <p>Join and start your journey</p>
+
+        <form action="register.php" method="post">
+            <div class="input-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Full Name" name="name" required>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email Address" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password" name="password" required>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Confirm Password" name="pass_confirm" required>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+
+        <p class="signup-text">
+            Already have an account? <a href="login.html">Login</a>
+        </p>
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="hi.js"></script>
+</head>
+<body>
+<div class="black-section">
+<nav>
+        <ul>
+            <a href="index.html"><li>Home</li>
+</a>
+            <a href="register.html"><li>Register</li></a>
+            <a href="login.html"><li>Login</li></a>
+            <a href="index.html"><li>My Portfolio</li></a>
+            <a  id=contact href="contact.html"><li>Contact me</li></a>
+            
+        </ul>
+
+        </nav>
+    </div>
+<section class="login-section">
+    <div class="login-box">
+        <h2>Welcome Back</h2>
+        <p>Please login to your account</p>
+
+        <form action="login.php" method="post">
+            <div class="input-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Email" required name="email">
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password" required name="password">
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p class="signup-text">
+            Don’t have an account? <a href="register.html">Register</a>
+        </p>
+    </div>
+</section>
+
+</body>
+</html>
